@@ -17,7 +17,7 @@ document.documentElement.classList.add('js');
   // the frames to another host/CDN (no trailing slash).
   const FRAME_BASE_URL = 'https://nikunjnimodiya.github.io/portfolio/frame';
   const FRAME_PATH = (i) => `${FRAME_BASE_URL}/frame_${String(i + SKIP_FRAMES).padStart(4, '0')}.jpg`;
-
+  console.log(FRAME_PATH)
   const SMOOTHING = 0.25; // 0-1: higher = snappier, lower = silkier
 
   const canvas = document.getElementById('charCanvas');
