@@ -15,7 +15,7 @@ document.documentElement.classList.add('js');
   const TOTAL_FRAMES = 144 - SKIP_FRAMES; // 134 frames: frame_0011 -> frame_0144
   // Base URL where the frames are hosted. Change ONLY this line if you move
   // the frames to another host/CDN (no trailing slash).
-  const FRAME_BASE_URL = 'https://nikunjnimodiya.github.io/portfolio/frames';
+  const FRAME_BASE_URL = 'https://nikunjnimodiya.github.io/portfolio/frame';
   const FRAME_PATH = (i) => `${FRAME_BASE_URL}/frame_${String(i + SKIP_FRAMES).padStart(4, '0')}.jpg`;
 
   const SMOOTHING = 0.25; // 0-1: higher = snappier, lower = silkier
